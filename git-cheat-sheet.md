@@ -3,48 +3,50 @@ Git Cheat Sheet
 
 ###### Git Cheat Sheet © 2024 by Leanne Keeley & Sebastian Roman is licensed under Attribution-NonCommercial 4.0 International. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc/4.0/
 
-*Last updated 2024-03-21*
+*Last updated 2024-03-28*
 
-**⚠️ Please make sure Git is installed first!**  
-[Here is a guide on how to install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+> [!WARNING]
+> **Please make sure Git is installed first!**  
+> [Here is a guide on how to install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
 Git terms
 ---------
 
-Branch
+__Branch__
 : A separate version of the code, used for testing new features
 
-Develop (Branch)
+__Develop (Branch)__
 : Usually the branch that you merge changes to
 
-Fork
-: *noun* A copy of a repository  
-*verb* To create a copy of a repository
+__Fork__
+: <sub>noun</sub> A copy of a repository  
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <sub>verb</sub> To create a copy of a repository
 
-Head
+__Head__
 : The most recent commit
 
-Master (Branch)
+__Master (Branch)__
 : The main branch of your repository
 
-Pull request
+__Pull request__
 : Ask the owner of a repository to merge your changes into the project
 
-Remote/Origin/Upstream
+__Remote/Origin/Upstream__
 : These refer to the location of the repository online. This is where changes are pushed to ([github](https://github.com/), [gitlab](https://gitlab.com/), etc.)
 
-Repository/Repo
+__Repository/Repo__
 : A container for your project
 
-.gitignore
+__.gitignore__
 : This is a file that contains the names of things you want git to ignore
 
 Git Commands
 ------------
 
-**ℹ️ These comands are structured as `git [command] [flags] [arguments]`**  
-Example: `git checkout -b main`   
-In this example, `checkout` is the command, `-b` is the flag, and `main` is the argument
+> [!NOTE]
+> **These comands are structured as `git [command] [flags] [arguments]`**  
+> Example: `git checkout -b main`   
+> In this example, `checkout` is the command, `-b` is the flag, and `main` is the argument
 
 `add [file]`
 : Adds the named file to your git repository
@@ -58,12 +60,12 @@ In this example, `checkout` is the command, `-b` is the flag, and `main` is the 
 `checkout [branch or file]`
 : Switch to a different branch, or pull the last committed version of a file
 
-`-b` flag allows you to create a new branch
+&nbsp; &nbsp; &nbsp; &nbsp; `-b` flag allows you to create a new branch
 
 `commit`
 : Adds a save point with new changes. Descriptive comments made it much easier to understand what change you saved
 
-`-am '[comment]'` flag allows you to add comment without going into a text editor
+&nbsp; &nbsp; &nbsp; &nbsp; `-am '[comment]'` flag allows you to add comment without going into a text editor
 
 `fetch`
 : Download copies of all the files in a branch to your local machine
